@@ -52,4 +52,8 @@ Cardapio/
 git clone https://github.com/andreyyrson/Cardapio.git
 cd Cardapio
 
+### 2. entrar no repositório
+cd cardapio-api
+./mvnw spring-boot:run
+
 
