@@ -21,3 +21,35 @@ Sistema de Cardápio Digital desenvolvido com **React** no frontend e **Spring B
 
 ## 📁 Estrutura do Projeto
 
+Cardapio/
+├── cardapio-api/ # Backend (Spring Boot)
+│ └── src/main/java/com/votacao_api
+│ ├── Controller/
+│ ├── Entidade/
+│ ├── Repository/
+│ ├── Service/
+│ └── ...
+├── cardapio-front-end/ # Frontend (React + Tailwind)
+│ ├── src/
+│ │ ├── Components/
+│ │ ├── Hooks/
+│ │ └── ...
+└── README.md
+
+
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js 18+
+- Java 17+
+- Git
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/andreyyrson/Cardapio.git
+cd Cardapio
+
+
