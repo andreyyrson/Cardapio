@@ -44,7 +44,46 @@ Cardapio/
 
 - Node.js 18+
 - Java 17+
-- Git
+- Git📦 Endpoints da API
+GET /food – Lista todos os itens do cardápio
+
+POST /food – Cadastra um novo item
+
+PUT /food/{id} – Atualiza um item
+
+DELETE /food/{id} – Remove um item
+
+📷 Exemplo de Dados
+json
+Copiar
+Editar
+{
+  "price": 40,
+  "title": "Pizza Calabresa",
+  "image": "https://exemplo.com/imagem-da-pizza.jpg"
+}
+✨ Funcionalidades
+ Listagem de produtos
+
+ Exibição de imagem, nome e preço
+
+ Autenticação de administrador (em breve)
+
+ Edição e remoção via interface (em breve)
+
+📌 TODO
+Autenticação com JWT
+
+Upload de imagens
+
+Integração com banco de dados em nuvem
+
+Interface de painel administrativo
+
+🧑‍💻 Autor
+Desenvolvido por Andrey Matos
+
+
 
 ### 1. Clonar o repositório
 
@@ -55,5 +94,9 @@ cd Cardapio
 ### 2. entrar no repositório
 cd cardapio-api
 ./mvnw spring-boot:run
+###
+
+
+
 
 
